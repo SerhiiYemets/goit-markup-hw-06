@@ -33,7 +33,7 @@ a {
     display: inline-block;
 }
 img {
-    display: block;
+    
 }
 
 /* === ЛОГОТИП === *
@@ -692,7 +692,7 @@ body {
     visibility: visible;
 }
 
-/* Modal window */
+/* Modal window *
 .model {
     position: absolute;
     top: 50%;
@@ -1084,7 +1084,6 @@ input[type="checkbox"]:checked~.custom-checkbox .checkbox-box .checkbox-icon {
 .container {
     width: 320px;
     padding: 0 16px;
-    height: 696px;
 }
 
 .features-list {
@@ -1117,9 +1116,13 @@ input[type="checkbox"]:checked~.custom-checkbox .checkbox-box .checkbox-icon {
 /* Team section */
 .team-section {
     background-color: #f4f4fd;
+    position: absolute;
+    text-align: center;
 }
 
-.container {}
+.container {
+   
+}
 
 .team-title {
     font-family: var(--font-family);
@@ -1135,6 +1138,7 @@ input[type="checkbox"]:checked~.custom-checkbox .checkbox-box .checkbox-icon {
 .team-list {
     width: 264px;
     height: 1928px;
+    display: inline-grid;
 }
 
 
