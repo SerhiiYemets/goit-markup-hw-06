@@ -8,14 +8,17 @@ body {
     background-color: #ffffff;
 }
 
-h1,
-h2,
-h3 {
+h1 {
     margin: 0;
+    margin-top: 72px;
+}
+h2 {
+    margin: 0;
+    margin-top: 96px;
 }
 
 h3 {
-    margin-bottom: 8px;
+    margin-top: 0px;
 }
 
 p {
@@ -1075,7 +1078,6 @@ input[type="checkbox"]:checked~.custom-checkbox .checkbox-box .checkbox-icon {
     clip-path: inset(100%);
 }
 .features-section {
-    padding: 96px 0;
     background-color: #ffffff;
     color: #2e2f42;
     margin: 0 auto;
@@ -1087,10 +1089,7 @@ input[type="checkbox"]:checked~.custom-checkbox .checkbox-box .checkbox-icon {
 }
 
 .features-list {
-    gap: 24px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+
 }
 
 .features-item {}
@@ -1161,7 +1160,10 @@ input[type="checkbox"]:checked~.custom-checkbox .checkbox-box .checkbox-icon {
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
-    padding: 32px 16px;
+    padding-left: 16px;
+    padding-bottom: 32px;
+    padding-right: 16px;
+    padding-top: 32px;
 }
 
 .card-name {
