@@ -43,6 +43,28 @@ img {
     padding-top: 1px;
 }
 
+.container {
+    max-width: 320px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+    } }
+
+
 /* === ЛОГОТИП === *
 .container {
     max-width: 1158px;
@@ -2088,7 +2110,6 @@ section {
 СЕКЦІЯ HERO === */
 .hero-section {
     position: relative;
-    max-width: 768px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
