@@ -490,7 +490,6 @@ img {
     gap: 0 24px;
     list-style: none;
     padding: 0;
-    margin: 0;
 }
 .feature-heading {
     margin-bottom: 8px;
@@ -519,7 +518,6 @@ img {
     gap: 24px;
     list-style: none;
     padding: 0;
-    margin: 0;
 }
 .features-item {
     width: calc((100% - 72px) / 4);
@@ -664,7 +662,8 @@ img {
 
 @media screen and (min-width: 1158px) {
 .team-section {
-    padding: 120px 0;   
+    padding: 120px 0; 
+    margin-top: 0;
 }
 .team-list {
     display: flex;
@@ -680,7 +679,11 @@ img {
     border-right: 1px solid #e7e9fc;
     padding: 32px 16px;
 }
+.team-card {
+    margin-bottom: 0;
 }
+}
+
 
 /* portfolio section */
 
@@ -756,15 +759,11 @@ img {
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
-    width: 288px;
-    height: 120px;
     padding-left: 16px;
     padding-bottom: 32px;
     padding-right: 16px;
     padding-top: 32px;
 }
-
-
 
 .card-title {
     font-weight: 700;
@@ -794,9 +793,7 @@ img {
 }
 
 @media screen and (min-width: 1158px) {
-.portfolio-section {
-    padding-top: 120px;
-}
+
 .project-list {
     display: flex;
     flex-wrap: wrap;
@@ -829,6 +826,7 @@ img {
     display: flex;
     flex-direction: column;
     gap: 72px;
+    align-items: center;
 }
 
 .text-light {
@@ -1028,7 +1026,7 @@ body {
     flex-direction: row;
 }
 .subscribe-button {
-    margin-left: 24px;
+    margin-left: 6px;
 }
 
 }
