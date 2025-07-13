@@ -505,6 +505,11 @@ img {
 }
 
 }
+@media screen and (min-width: 1158px) {
+    .feature-icon-box {
+    display: none;
+    }
+}
 
 @media screen and (min-width: 1158px) {
 .features-section {
