@@ -485,6 +485,9 @@ img {
 .features-list {
     margin-bottom: -72px;
 }
+.feature-icon-box {
+    display: none;
+}
 
 @media screen and (min-width: 768px) {
 .features-list {
@@ -503,14 +506,11 @@ img {
     font-size: 16px;
     line-height: 150%;
 }
-
-}
-@media screen and (max-width: 1158px) {
-    .feature-icon-box
-    .feature-icon-box svg {
+.feature-icon-box {
     display: none;
-    }
 }
+}
+
 
 @media screen and (min-width: 1158px) {
 .features-section {
