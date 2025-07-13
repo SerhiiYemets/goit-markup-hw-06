@@ -380,7 +380,6 @@ img {
     } 
 }
 
-
 /* === СЕКЦІЯ HERO === */
 
 .hero-section {
@@ -450,6 +449,15 @@ img {
 
 /* features */
 
+@media screen and (max-width: 1157px) {
+    .feature-icon-box {
+        display: none;
+    }
+    .feature-icon-box svg {
+        display: none;   
+    }
+}
+
 .features-section {
     padding-top: 96px;
     padding-bottom: 0;
@@ -475,10 +483,10 @@ img {
     margin-bottom: -72px;
 }
 .feature-icon-box {
-    display: none;
+  
 }
 .feature-icon-box svg {
-    display: none;
+   
 }
 
 @media screen and (min-width: 768px) {
@@ -499,11 +507,11 @@ img {
     line-height: 150%;
 }
 .feature-icon-box {
-    display: none;
+    
 }
 
 .feature-icon-box svg {
-    display: none;
+   
 }
 }
 
@@ -547,6 +555,7 @@ img {
     line-height: 1.5;
 }
 }
+
 
 /* Секция команды */
 
