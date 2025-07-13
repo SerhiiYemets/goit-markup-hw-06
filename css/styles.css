@@ -356,7 +356,7 @@ img {
 }
 
 .contact-link-menu {
-    font-size: 16px;
+    font-size: 20px;
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
@@ -377,8 +377,14 @@ img {
 .social-list {
     margin-top: 24px;
 }
-
-
+.social-list-menu {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    padding: 0;
+    justify-content: space-between;
+    margin-top: 24px;
+}
 
 @media screen and (min-width: 768px) {
 .mobile-menu {
@@ -876,7 +882,6 @@ img {
     gap: 16px;
     list-style: none;
     padding: 0;
-    justify-content: space-around;
 }
 
 .social-item {
