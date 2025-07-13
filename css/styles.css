@@ -449,15 +449,6 @@ img {
 
 /* features */
 
-@media screen and (max-width: 1157px) {
-    .feature-icon-box {
-        display: none;
-    }
-    .feature-icon-box svg {
-        display: none;   
-    }
-}
-
 .features-section {
     padding-top: 96px;
     padding-bottom: 0;
@@ -482,12 +473,7 @@ img {
 .features-list {
     margin-bottom: -72px;
 }
-.feature-icon-box {
-  
-}
-.feature-icon-box svg {
-   
-}
+
 
 @media screen and (min-width: 768px) {
 .features-list {
@@ -506,14 +492,7 @@ img {
     font-size: 16px;
     line-height: 150%;
 }
-.feature-icon-box {
-    
-}
 
-.feature-icon-box svg {
-   
-}
-}
 
 @media screen and (min-width: 1158px) {
 .features-section {
