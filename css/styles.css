@@ -393,11 +393,11 @@ img {
 }
 
 /* === СЕКЦІЯ HERO === */
-
+@media screen and (min-width: 320px) {
 .hero-section {
     position: relative;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/people-office.jpg);
+    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/hero/hero-mob-1-min.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -405,6 +405,12 @@ img {
     padding: 72px 0;
     text-align: center;
     overflow: hidden;
+}
+@media (min-resolution: 2x) {
+.hero-section {
+    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/hero/hero-mob-1@2x-min.jpg);
+}
 }
 .hero-section .container {
     position: relative;
@@ -445,10 +451,13 @@ img {
 .main-button:focus {
     background-color: #404bbf;
 }
+}
 
 @media screen and (min-width: 768px) {
 .hero-section {
     padding: 112px 0;
+    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/hero/hero-tab-1-min.jpg);
 }
 .hero-section .container {
     position: relative;
@@ -458,6 +467,26 @@ img {
     align-items: center;
     justify-content: center;
 }
+@media (min-resolution: 2x) {
+.hero-section {
+    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/hero/hero-tab-1@2x-min.jpg);
+    }
+}
+}
+
+@media screen and (min-width: 1158px) {
+.hero-section {
+    padding: 112px 0;
+    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/hero/hero-web-1-min.jpg);
+    }
+    @media (min-resolution: 2x) {
+    .hero-section {
+    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/hero/hero-web-1@2x-min.jpg);
+        }
+    }   
 }
 
 /* features */
@@ -512,7 +541,6 @@ img {
 }
 }
 
-
 @media screen and (min-width: 1158px) {
 .features-section {
     padding: 120px 0;
@@ -553,8 +581,6 @@ img {
     line-height: 1.5;
 }
 }
-
-
 /* Секция команды */
 
 .team-section {
@@ -652,7 +678,6 @@ img {
 .social-icon {
     fill: #f4f4fd;
 }
-
 
 @media screen and (min-width: 768px) {
 .team-list {
@@ -851,7 +876,6 @@ img {
     justify-content: center;
 }
 
-
 .logo {
     display: inline-block;
     font-weight: 700;
@@ -1025,7 +1049,7 @@ body {
 }
 .footer-social {
     margin-left: -238px;
-    margin-top: -32px;
+    margin-top: -20px;
 }
 .social-title {
     text-align: left;
