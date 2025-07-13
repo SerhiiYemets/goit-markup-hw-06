@@ -506,7 +506,8 @@ img {
 
 }
 @media screen and (min-width: 1158px) {
-    .feature-icon-box {
+    .feature-icon-box
+    .feature-icon-box svg {
     display: none;
     }
 }
