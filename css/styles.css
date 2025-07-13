@@ -1432,16 +1432,13 @@ input[type="checkbox"]:checked~.custom-checkbox .checkbox-box {
 input[type="checkbox"]:checked~.custom-checkbox .checkbox-box .checkbox-icon {
     fill: var(--checkbox-icon-color);
 }
-
 /* Посилання у label */
 .checkbox-link {
     color: #4d5ae5;
     text-decoration: underline;
     text-decoration-skip-ink: none;
-    margin-left: 4px;
  
 } 
-
 /* Button */
 .form-button {
     margin: auto;
@@ -1601,4 +1598,21 @@ input[type="checkbox"]:checked~.custom-checkbox .checkbox-box .checkbox-icon {
 
 .modal-textarea:focus {
     border-color: #4d5ae5;
+}
+
+@media screen and (max-width: 768px) {
+.model {
+    width: 288px;
+    min-height: 623px;
+    margin: 0 auto;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+.checkbox-text-content {
+    display: inline-flex;    
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-left: 8px;
+}
 }
