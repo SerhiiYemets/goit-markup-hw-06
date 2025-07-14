@@ -562,7 +562,7 @@ img {
 }
 .features-list {
     flex-wrap: nowrap;
-    max-width: 568px;
+    max-width: 552px;
 }
 .features-item {
     width: calc((100% - 72px) / 4);
